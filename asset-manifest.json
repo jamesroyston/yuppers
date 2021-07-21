@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/yuppers/static/js/main.fc58e473.chunk.js",
+    "main.js.map": "/yuppers/static/js/main.fc58e473.chunk.js.map",
+    "runtime-main.js": "/yuppers/static/js/runtime-main.dff1f71c.js",
+    "runtime-main.js.map": "/yuppers/static/js/runtime-main.dff1f71c.js.map",
+    "static/js/2.12df6182.chunk.js": "/yuppers/static/js/2.12df6182.chunk.js",
+    "static/js/2.12df6182.chunk.js.map": "/yuppers/static/js/2.12df6182.chunk.js.map",
+    "static/js/3.d3e68a7f.chunk.js": "/yuppers/static/js/3.d3e68a7f.chunk.js",
+    "static/js/3.d3e68a7f.chunk.js.map": "/yuppers/static/js/3.d3e68a7f.chunk.js.map",
+    "index.html": "/yuppers/index.html",
+    "static/js/2.12df6182.chunk.js.LICENSE.txt": "/yuppers/static/js/2.12df6182.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dff1f71c.js",
+    "static/js/2.12df6182.chunk.js",
+    "static/js/main.fc58e473.chunk.js"
+  ]
+}
