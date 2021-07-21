@@ -9,12 +9,11 @@ import Post from './pages/Post';
 import Home from './pages/Home';
 
 function App() {
-  console.log(window.location.href);
   return (
     // Router could be it's own component but I'm trying to save time, sorry
-    <Router>
-      <GlobalStyle />
-      <div>
+    <>
+      <Router>
+        <GlobalStyle />
         <Switch>
           <Route exact path="/yuppers/post/:id">
             <Post />
@@ -26,8 +25,8 @@ function App() {
             <Redirect to="/yuppers/posts" />
           </Route>
         </Switch>
-      </div>
-    </Router>
+      </Router>
+    </>
   );
 }
 

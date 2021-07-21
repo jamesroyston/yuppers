@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 16px;
     margin: 0;
     padding: 0;
+    width: 100vw;
   }
 
   *, *::before, *::after {
