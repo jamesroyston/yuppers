@@ -9,21 +9,21 @@ import Post from './pages/Post';
 import Home from './pages/Home';
 
 function App() {
+  console.log(window.location.href);
   return (
+    // Router could be it's own component but I'm trying to save time, sorry
     <Router>
       <GlobalStyle />
       <div>
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
         <Switch>
-          <Route exact path="/post/:id">
+          <Route exact path="/yuppers/post/:id">
             <Post />
           </Route>
-          <Route path="/posts">
+          <Route path="/yuppers/posts">
             <Home />
           </Route>
           <Route path="/">
-            <Redirect to="/posts" />
+            <Redirect to="/yuppers/posts" />
           </Route>
         </Switch>
       </div>
