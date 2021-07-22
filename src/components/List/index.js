@@ -6,7 +6,11 @@ function List({ items = [], type }) {
   return (
     <Div width="100%">
       {items.map(item => (
-        <ListItem itemData={item} type={type} />
+        <ListItem
+          key={`post__${item.body}__user__${item.userId}`}
+          itemData={item}
+          type={type}
+        />
       ))}
     </Div>
   );

@@ -17,7 +17,7 @@ function ListItem({ itemData, type }) {
       borderRadius="10px"
       onClick={() =>
         type === 'post'
-          ? history.push(`/yuppers/post/${id}`, {
+          ? history.push(`/post/${id}`, {
               itemData,
             })
           : null

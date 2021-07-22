@@ -15,14 +15,14 @@ function App() {
       <Router>
         <GlobalStyle />
         <Switch>
-          <Route exact path="/yuppers/post/:id">
+          <Route exact path="/post/:id">
             <Post />
           </Route>
-          <Route path="/yuppers/posts">
+          <Route path="/posts">
             <Home />
           </Route>
-          <Route path="/">
-            <Redirect to="/yuppers/posts" />
+          <Route exact path="/">
+            <Redirect to="/posts" />
           </Route>
         </Switch>
       </Router>
